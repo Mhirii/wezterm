@@ -1,0 +1,40 @@
+[colors]
+foreground = "#C1CCE3"
+background = "#282c34"
+cursor_bg = "#C1CCE3"
+cursor_border = "#C1CCE3"
+cursor_fg = "#282c34"
+selection_bg = "#3E424A"
+selection_fg = "#C1CCE3"
+
+ansi = ["#1a243a", "#FF616E", "#A5E075", "#F0A45D", "#90a5f7", "#bb9af7", "#6faee9", "#C1CCE3"]
+brights = ["#292d35", "#FF616E", "#A5E075", "#F0A45D", "#90a5f7", "#bb9af7", "#6faee9", "#C1CCE3"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#282c34"
+background = "#282c34"
+
+[colors.tab_bar.active_tab]
+fg_color = "#90a5f7"
+bg_color = "#282c34"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#282c34"
+fg_color = "#545c7e"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#282c34"
+fg_color = "#6faee9"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#282c34"
+bg_color = "#6faee9"
+
+[colors.tab_bar.new_tab]
+fg_color = "#90a5f7"
+bg_color = "#282c34"
+
+[metadata]
+aliases = []
+author = "folke"
+name = "onedark"
