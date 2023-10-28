@@ -5,16 +5,16 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
-config.window_background_opacity = 0.5
+config.window_background_opacity = 0.6
 config.window_background_image = "/home/mhiri/.config/hypr/wallpapers/wallhaven-gpm9o3.png"
 config.window_background_image_hsb = { brightness = 0.5 }
 
 config.text_background_opacity = 1.0
 config.hide_tab_bar_if_only_one_tab = true
 config.color_scheme = "tokyonight_night"
+config.color_scheme_dirs = { os.getenv("HOME") .. "/.config/wezterm/colors/" }
 config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 11.0
-config.color_scheme_dirs = { os.getenv("HOME") .. "/.config/wezterm/colors/" }
 config.use_fancy_tab_bar = false
 config.colors = {
 	tab_bar = {
